@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #e5e5e5;
+	font-size: 1em;
+	font-family: sans-serif;
+}
+
+#area-cabecalho{
+	background: #012a4a;
+	font-family: fantasy;
+	padding: 15px;
+	text-align: center;
+}
+
+#area_logo{
+	color: white;
+	font-family: helvetica;
+	padding: 10px;
+}
+
+#area_menu{
+	padding: 10px
+	color: white;
+}
+
+#area_prin{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#area_post{
+	width: 700px;
+	float: left;
+}
+
+#area_lat{
+	width: 240px;
+	float: right;
+}
+
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: #f9c74f;
+	text-align: left;
+	font-style: italic;
+}
+
+
+.post_lat{
+	padding: 10px;
+	margin-bottom: 20px;
+	font-size: 0.8em;
+	text-align: justify;
+	padding: 8px;
+	border-bottom: 5px solid #283618;
+	color: black;
+}
+
+.cont_lat{
+	color: black;
+}
+
+#rodapé{
+	clear: both;
+	color: black;
+	background: white;
+	text-align: center;
+	padding: 15px;
+	font-weight: bold;
+	font-style: italic;
+	font-family: sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #ffe66d;
+    font-family: sans-serif;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link,#area-cabecalho a:visited{
+    color: #D8E4FF;
+    padding: 8px 12px;
+}
+.cont_lat a:link,.cont_lat a:visited{
+    color: black;
+    padding: 8px 12px;
+}
+#area-cabecalho a:hover{
+    color: #ffe66d;
+    background: #014f86;
+    text-decoration: none;
+}
+
+h1{
+	color: white;
+	font-size: 2.5em;
+	font-family: fantasy;
+}
+
+.edit_logo{
+	color: black;
+	background: #f9c74f;
+	background-size: 50px;
+}
+
+h3{
+	background: black;
+	color: white;
+}
+
+p{
+	font-family: cursive, arial;
+}
